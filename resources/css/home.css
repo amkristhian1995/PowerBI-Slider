@@ -1,0 +1,110 @@
+/* CONTENT SECTION 1 */
+.content-section {
+	background-color:#FFF;
+	overflow:hidden;
+}
+.content-section > .head {
+	align-items:center;
+	background-color:#F47A05;
+	color:#FFF;
+	display:inline-flex;
+	font-family:"Lato Medium";
+	font-size:16px;
+	justify-content:center;
+	padding:7.5px;
+	width:100%;
+}
+.content-section.inverse > .head {
+	background-color:#434343;
+}
+.content-section > .head > img {
+	width:25px;
+}
+.content-section > .head > a {
+	color:#FFF !important;
+	font-family:"Lato Bold";
+	font-size:.9rem;
+	text-decoration:none !important;
+}
+.content-section > .content {
+	align-items:center;
+	background-color:#FFF;
+	display:inline-flex;
+	font-family:"Lato Bold";
+	font-size:16px;
+	height:200px;
+	justify-content:center;
+	/*max-height:225px;
+	min-height:225px;*/
+	overflow:auto;
+	width:100%;
+}
+.content-section > .content::-webkit-scrollbar {
+	height:5px;
+	width:10px;
+}
+.content-section > .content::-webkit-scrollbar-thumb {
+    background:#333;
+    border-radius:2.5px;
+}
+.content-section > .content::-webkit-scrollbar-thumb:hover {
+    background:#333;
+    box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.content-section > .content::-webkit-scrollbar-thumb:active {
+    background-color:#333;
+}
+.content-section > .content::-webkit-scrollbar-track {
+    background:#BBB;
+    border-radius:4px;
+}
+.content-section > .content::-webkit-scrollbar-track:hover,
+.content-section > .content::-webkit-scrollbar-track:active {
+	/*background:#d4d4d4;*/
+}
+.content-section > .content > div > a,
+.content-section > .content > div > div > a {
+	color:#ED0272;
+	text-decoration:none;
+}
+
+
+.section-01 {
+	border-radius:7.5px;
+	margin-bottom:0px!important;
+	overflow:hidden;
+}
+/* SECTION 01 - BANNER */
+.seccion-banner > .slick-list.draggable {
+	height:100%;
+	padding: 0 !important;
+}
+.seccion-banner > .slick-list.draggable > .slick-track {
+	height:100%;
+}
+.seccion-banner > .slick-list.draggable > .slick-track > a > div {
+	background-size:cover;
+	height:100%;
+}
+.seccion-banner > .slick-list.draggable > .slick-track > .slick-slide > div > a > div {
+	background-size:cover;
+	background-repeat:no-repeat;
+	position:relative;
+}
+.seccion-banner > .slick-dots {
+	bottom:0 !important;
+	width:90%;
+}
+.seccion-banner > .slick-dots li button:before {
+	background-color: #444 !important;
+	border: 4px solid #444 !important;
+	border-radius: 50% !important;
+	content: '\f10c' !important;
+	height: 15px !important;
+	opacity:1;
+	top: -10px !important;
+	width: 15px !important;
+}
+.seccion-banner > .slick-dots li.slick-active button:before {
+	background-color: #FFF !important;
+}

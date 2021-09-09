@@ -1,0 +1,45 @@
+.left__menu {
+    background-color:#FFF;
+    box-shadow:0 5px 5px 5px rgba(0,0,0,.25);
+    margin-left: -275px;
+    max-width: 250px;
+    min-width: 250px;
+    overflow:auto;
+    position:fixed;
+    transition: all .3s;
+    -o-transition: all .3s;
+    -webkit-transition: all .3s;
+    z-index:999;
+}
+.left__menu.active {
+    margin-left: 0;
+}
+.left__menu > ul > li {
+	background-color:#FFF;
+    overflow:hidden;
+    transition:all .3s;
+}
+.left__menu > ul > li > a {
+    color:#585256;
+    display:block;
+    font-family:"Lato Medium";
+    font-size:.8rem !important;
+    padding:.75rem 0;
+    text-decoration:none;
+    transition:padding .5s;
+}
+.left__menu > ul > li > a > i {
+    color:#F47A05;
+}
+.left__menu > ul > li.active,
+.left__menu > ul > li.active > a {
+    background-color:#F47A05;
+    color:#FFF;
+}
+.left__menu > ul > li.active > a > i {
+    color:#FFF;
+}
+.left__menu > ul > li:hover > a {
+    font-family:"Lato Bold";
+    padding-left:1.5rem!important;
+}
